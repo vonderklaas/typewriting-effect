@@ -1,16 +1,16 @@
 body {
   margin: 0;
-  padding: 30px;
   box-sizing: border-box;
   font-family: sans-serif;
+  font-size: 25px;
 }
 
 .intro {
-  padding: 20px;
   display: flex;
+  padding: 50px;
   height: 100vh;
   color: #333333;
-  background-image: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);
+  background-image: linear-gradient(to top, #282c35 0%, #949eac 100%);
 }
 
 .typing {

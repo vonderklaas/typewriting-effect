@@ -1,8 +1,8 @@
-const texts = ['websites', 'illustrations', 'pancakes'];
+const texts = ['front-end', 'back-end', 'websites', 'mobile apps'];
 let count = 0; // 0, 1, 2
 let index = 0; // individual letters
-let currentText = ''; // text what is currently selected
 let letter = ''; // individual letter
+let currentText = ''; // text what is currently selected
 
 // Self invoked every 0.4 seconds
 (function type(){
