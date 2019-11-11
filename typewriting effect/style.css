@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  padding: 30px;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.intro {
+  padding: 20px;
+  display: flex;
+  height: 100vh;
+  color: #333333;
+  background-image: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);
+}
+
+.typing {
+  position: relative;
+  margin-left: 10px;
+}
+
+.typing:after {
+  content: "";
+  position: absolute;
+  width: 1px;
+  right: -5px;
+  height: 4%;
+  border-right: 2px solid #333333;
+  animation: blink 1s infinite ease;
+}
+
+@keyframes blink{
+
+  0% {
+    opacity: 0;;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
